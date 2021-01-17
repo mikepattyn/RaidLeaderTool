@@ -1,0 +1,7 @@
+## Interface: 90002
+## Title: RaidLeaderTool
+## Author: Mike Pattyn
+## Version: 0.1
+## SavedVariables: raidLeaderToolConfig
+
+main.lua
