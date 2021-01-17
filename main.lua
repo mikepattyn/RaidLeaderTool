@@ -1,7 +1,7 @@
 local menu = MyMenu()
 
 local button = CreateFrame("Button", "MyButton", UIParent, "UIPanelButtonTemplate")
-button:SetSize(80 ,22) -- width, height
+button:SetSize(120 ,30) -- width, height
 button:SetText("Mike's Raid Tool")
 button:SetPoint("TOPLEFT")
 
