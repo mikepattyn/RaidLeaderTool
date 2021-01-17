@@ -1,3 +1,3 @@
-function CastleNathriaShriekwingGeneral() 
-    SendChatMessage("Castle nathria shriekwing general from soc applied method", "RAID_WARNING")
+function CastleNathria_Shriekwing_General() 
+    SendChatMessage("SHRIEKWING GENERAL", "RAID_WARNING")
 end

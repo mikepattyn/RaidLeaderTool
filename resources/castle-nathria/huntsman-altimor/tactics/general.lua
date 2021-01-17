@@ -1,3 +1,3 @@
-function CastleNathriaHuntsmanAltimorGeneral() 
-    SendChatMessage("Castle nathria huntsman altimor general from soc applied method", "RAID_WARNING")
+function CastleNathria_HuntsmanAltimor_General() 
+    SendChatMessage("HUNTSMAN ALTIMOR GENERAL", "RAID_WARNING")
 end
