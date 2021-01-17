@@ -4,7 +4,15 @@ function MyMenu()
             text = "Castle Nathria", hasArrow = true, notCheckable = true,
             menuList = { 
                 CastleNathriaShriekwingMenu(),
-                CastleNathriaHuntsmanAltimorMenu()
+                CastleNathriaHuntsmanAltimorMenu(),
+                CastleNathriaHungeringDestroyerMenu(),
+                CastleNathriaArtificerXymoxMenu(),
+                CastleNathriaSunKingsSalvationMenu(),
+                CastleNathriaLadyInervaDarkveinMenu(),
+                CastleNathriaTheCouncilOfBloodMenu(),
+                CastleNathriaSludgefistMenu(),
+                CastleNathriaStoneLegionGeneralsMenu(),
+                CastleNathriaSireDenathriusMenu()
             }
         }
     }
