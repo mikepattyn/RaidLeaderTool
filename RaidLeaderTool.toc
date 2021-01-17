@@ -57,10 +57,8 @@ resources/castle-nathria/huntsman-altimor/tactics/healers.lua
 resources/castle-nathria/huntsman-altimor/tactics/tanks.lua
 resources/castle-nathria/huntsman-altimor/menu.lua
 
-resources/castle-nathria/shriekwing/tactics/dps.lua
-resources/castle-nathria/shriekwing/tactics/general.lua
-resources/castle-nathria/shriekwing/tactics/healers.lua
-resources/castle-nathria/shriekwing/tactics/tanks.lua
+resources/castle-nathria/shriekwing/tactics/phase-1.lua
+resources/castle-nathria/shriekwing/tactics/phase-2.lua
 resources/castle-nathria/shriekwing/menu.lua
 
 resources/menu.lua
