@@ -4,5 +4,9 @@
 ## Version: 0.1
 ## SavedVariables: raidLeaderToolConfig
 
+resources/castle-nathria/huntsman-altimor/tactics/general.lua
+resources/castle-nathria/huntsman-altimor/menu.lua
+resources/castle-nathria/shriekwing/tactics/general.lua
+resources/castle-nathria/shriekwing/menu.lua
 resources/menu.lua
 main.lua
