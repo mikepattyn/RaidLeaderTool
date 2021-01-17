@@ -1,9 +1,4 @@
-
-local menu = {
-    { text = 'Tanks', func = function() SendChatMessage("testing from dropdown menu", "OFFICER"); end },
-    { text = 'Healers', func = function() SendChatMessage("testing from dropdown menu", "OFFICER"); end },
-    { text = 'Dps', func = function() SendChatMessage("testing from dropdown menu", "OFFICER"); end }
-}
+local menu = MyMenu()
 
 local button = CreateFrame("Button", "MyButton", UIParent, "UIPanelButtonTemplate")
 button:SetSize(80 ,22) -- width, height
