@@ -3,6 +3,9 @@
 ## Author: Mike Pattyn
 ## Version: 0.1
 
+resources/general/ready-check.lua
+resources/general/buff-check.lua
+
 resources/castle-nathria/sire-denathrius/tactics/dps.lua
 resources/castle-nathria/sire-denathrius/tactics/general.lua
 resources/castle-nathria/sire-denathrius/tactics/healers.lua
@@ -60,6 +63,8 @@ resources/castle-nathria/huntsman-altimor/menu.lua
 resources/castle-nathria/shriekwing/tactics/phase-1.lua
 resources/castle-nathria/shriekwing/tactics/phase-2.lua
 resources/castle-nathria/shriekwing/menu.lua
+
+resources/castle-nathria/menu.lua
 
 resources/menu.lua
 main.lua

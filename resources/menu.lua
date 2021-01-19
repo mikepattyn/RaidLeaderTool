@@ -1,20 +1,31 @@
 function MyMenu()
-    local menu = {
-        {
-            text = "Castle Nathria", hasArrow = true, notCheckable = true,
-            menuList = { 
-                CastleNathriaShriekwingMenu(),
-                CastleNathriaHuntsmanAltimorMenu(),
-                CastleNathriaHungeringDestroyerMenu(),
-                CastleNathriaArtificerXymoxMenu(),
-                CastleNathriaSunKingsSalvationMenu(),
-                CastleNathriaLadyInervaDarkveinMenu(),
-                CastleNathriaTheCouncilOfBloodMenu(),
-                CastleNathriaSludgefistMenu(),
-                CastleNathriaStoneLegionGeneralsMenu(),
-                CastleNathriaSireDenathriusMenu()
-            }
-        }
-    }
+    local menu = {{
+        text = "Raids",
+        hasArrow = true,
+        notCheckable = true,
+        menuList = {{
+            text = "Castle Nathria",
+            hasArrow = true,
+            notCheckable = true,
+            menuList = CastleNathriaMenuList()
+        }}
+    }, {
+        text = "Misc",
+        hasArrow = true,
+        notCheckable = true,
+        menuList = {{
+            text = "Ready check",
+            notCheckable = true,
+            func = function()
+                InitiateReadyCheck();
+            end
+        }, {
+            text = "Buff checker",
+            notCheckable = true,
+            func = function()
+                local frame = InitiateBuffCheck();
+            end
+        }}
+    }}
     return menu
 end
