@@ -31,10 +31,12 @@ function InitiateBuffCheck()
         frame:Hide()
     end)
 
+    local groupMemberCount = GetNumGroupMembers("LE_PARTY_CATEGORY_INSTANCE")
+
     -- (5)
     local text = frame:CreateFontString(nil, "ARTWORK", "GameFontHighlight")
     text:SetPoint("CENTER")
-    text:SetText("Hello World!")
+    text:SetText(groupMemberCount)
 
     return frame
 end
