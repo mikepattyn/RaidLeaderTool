@@ -35,6 +35,15 @@ function InitiateBuffCheck()
     -- getting the groupmember count
     local groupMemberCount = GetNumGroupMembers("LE_PARTY_CATEGORY_INSTANCE")
 
+    local tableData = {}
+
+    local homePlayers = GetHomePartyInfo()
+
+    for i=1,groupMemberCount,1 do
+        local raidMember = homePlayers[i]
+        tableData.insert({raidMember.name, "false", "false", "false"})
+    end
+   
     local coldata = {{
         ["name"] = "Character",
         ["width"] = 80
@@ -49,13 +58,19 @@ function InitiateBuffCheck()
         ["width"] = 40
     }};
 
-    local data = {{ "Sachmo", "OK", "true", "false"}, {"Josua", "false", "true", "false"}};
-
     -- create a table here and add to frame
     local tableStub = LibStub("ScrollingTable")
-    local table = tableStub:CreateST(coldata, 2, 20, nil, frame)
+    local table = tableStub:CreateST(coldata, groupMemberCount, 20, nil, frame)
     table.frame:SetPoint("TOPLEFT", frame ,"TOPLEFT",10,-20)
-    table:SetData(data, true)
+    table:SetData(tableData, true)
+
+    local text = frame:CreateFontString(nil, "ARTWORK", "GameFontHighlight")
+    text:SetPoint("BOTTOMRIGHT")
+    text:SetText(homePlayers)
+
+    local text = frame:CreateFontString(nil, "ARTWORK", "GameFontHighlight")
+    text:SetPoint("BOTTOMLEFT")
+    text:SetText(groupMemberCount)
 
     return frame
 end
