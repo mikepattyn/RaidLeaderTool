@@ -3,6 +3,10 @@
 ## Author: Mike Pattyn
 ## Version: 0.1
 
+embeds.xml
+
+Libs/ScrollingTableCore.lua
+
 resources/general/ready-check.lua
 resources/general/buff-check.lua
 
