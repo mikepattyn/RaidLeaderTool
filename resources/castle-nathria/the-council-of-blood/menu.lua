@@ -4,28 +4,29 @@ function CastleNathriaTheCouncilOfBloodMenu()
         hasArrow = true,
         notCheckable = true,
         menuList = {{
-            text = "General",
+            text = "Video",
             notCheckable = true,
             func = function()
-                CastleNathria_TheCouncilOfBlood_General();
+                SendChatMessage("https://www.icy-veins.com/wow/the-council-of-blood-strategy-guide-for-castle-nathria",
+                    "RAID_WARNING");
             end
         }, {
-            text = "Tanks",
+            text = "Throughout the fight",
             notCheckable = true,
             func = function()
-                CastleNathria_TheCouncilOfBlood_Tanks();
+                CastleNathria_TheCouncilOfBlood_ThroughoutTheFight();
             end
         }, {
-            text = "Healers",
+            text = "After freida dies",
             notCheckable = true,
             func = function()
-                CastleNathria_TheCouncilOfBlood_Healers();
+                CastleNathria_TheCouncilOfBlood_AfterFreidaDies();
             end
         }, {
-            text = "Dps",
+            text = "After niklaus dies",
             notCheckable = true,
             func = function()
-                CastleNathria_TheCouncilOfBlood_Dps();
+                CastleNathria_TheCouncilOfBlood_AfterNiklausDies();
             end
         }}
     }
