@@ -4,28 +4,35 @@ function CastleNathriaSireDenathriusMenu()
         hasArrow = true,
         notCheckable = true,
         menuList = {{
-            text = "General",
+            text = "Video",
             notCheckable = true,
             func = function()
-                CastleNathria_SireDenathrius_General();
+                SendChatMessage("https://www.icy-veins.com/wow/shriekwing-strategy-guide-for-castle-nathria",
+                    "RAID_WARNING");
             end
         }, {
-            text = "Tanks",
+            text = "Phase one",
             notCheckable = true,
             func = function()
-                CastleNathria_SireDenathrius_Tanks();
+                CastleNathria_SireDenathrius_PhaseOne();
             end
         }, {
-            text = "Healers",
+            text = "Intermission",
             notCheckable = true,
             func = function()
-                CastleNathria_SireDenathrius_Healers();
+                CastleNathria_SireDenathrius_Intermission();
             end
         }, {
-            text = "Dps",
+            text = "Phase two",
             notCheckable = true,
             func = function()
-                CastleNathria_SireDenathrius_Dps();
+                CastleNathria_SireDenathrius_PhaseTwo();
+            end
+        }, {
+            text = "Phase three",
+            notCheckable = true,
+            func = function()
+                CastleNathria_SireDenathrius_PhaseThree();
             end
         }}
     }

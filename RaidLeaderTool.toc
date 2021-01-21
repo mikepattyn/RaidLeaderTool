@@ -10,10 +10,10 @@ Libs/ScrollingTableCore.lua
 resources/general/ready-check.lua
 resources/general/buff-check.lua
 
-resources/castle-nathria/sire-denathrius/tactics/dps.lua
-resources/castle-nathria/sire-denathrius/tactics/general.lua
-resources/castle-nathria/sire-denathrius/tactics/healers.lua
-resources/castle-nathria/sire-denathrius/tactics/tanks.lua
+resources/castle-nathria/sire-denathrius/tactics/phase-three.lua
+resources/castle-nathria/sire-denathrius/tactics/phase-two.lua
+resources/castle-nathria/sire-denathrius/tactics/intermission.lua
+resources/castle-nathria/sire-denathrius/tactics/phase-one.lua
 resources/castle-nathria/sire-denathrius/menu.lua
 
 resources/castle-nathria/stone-legion-generals/tactics/phase-three.lua
