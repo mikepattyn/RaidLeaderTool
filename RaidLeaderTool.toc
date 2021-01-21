@@ -40,12 +40,13 @@ resources/castle-nathria/lady-inerva-darkvein/tactics/healers.lua
 resources/castle-nathria/lady-inerva-darkvein/tactics/tanks.lua
 resources/castle-nathria/lady-inerva-darkvein/menu.lua
 
-resources/castle-nathria/sun-kings-salvation/tactics/dps.lua
-resources/castle-nathria/sun-kings-salvation/tactics/general.lua
-resources/castle-nathria/sun-kings-salvation/tactics/healers.lua
-resources/castle-nathria/sun-kings-salvation/tactics/tanks.lua
+resources/castle-nathria/sun-kings-salvation/tactics/shade-phase.lua
+resources/castle-nathria/sun-kings-salvation/tactics/add-phase.lua
 resources/castle-nathria/sun-kings-salvation/menu.lua
 
+resources/castle-nathria/artificer-xymox/tactics/phase-three.lua
+resources/castle-nathria/artificer-xymox/tactics/phase-two.lua
+resources/castle-nathria/artificer-xymox/tactics/phase-one.lua
 resources/castle-nathria/artificer-xymox/tactics/through-out-fight.lua
 resources/castle-nathria/artificer-xymox/menu.lua
 

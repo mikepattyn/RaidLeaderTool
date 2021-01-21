@@ -4,28 +4,23 @@ function CastleNathriaSunKingsSalvationMenu()
         hasArrow = true,
         notCheckable = true,
         menuList = {{
-            text = "General",
+            text = "Video",
             notCheckable = true,
             func = function()
-                CastleNathria_SunKingsSalvation_General();
+                SendChatMessage("https://www.icy-veins.com/wow/sun-kings-salvation-strategy-guide-for-castle-nathria",
+                    "RAID_WARNING");
             end
         }, {
-            text = "Tanks",
+            text = "Add phase",
             notCheckable = true,
             func = function()
-                CastleNathria_SunKingsSalvation_Tanks();
+                CastleNathria_SunKingsSalvation_AddPhase();
             end
         }, {
-            text = "Healers",
+            text = "Shade phase",
             notCheckable = true,
             func = function()
-                CastleNathria_SunKingsSalvation_Healers();
-            end
-        }, {
-            text = "Dps",
-            notCheckable = true,
-            func = function()
-                CastleNathria_SunKingsSalvation_Dps();
+                CastleNathria_SunKingsSalvation_ShadePhase();
             end
         }}
     }
