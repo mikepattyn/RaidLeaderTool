@@ -4,28 +4,17 @@ function CastleNathriaLadyInervaDarkveinMenu()
         hasArrow = true,
         notCheckable = true,
         menuList = {{
-            text = "General",
+            text = "Video",
             notCheckable = true,
             func = function()
-                CastleNathria_LadyInervaDarkvein_General();
+                SendChatMessage("https://www.icy-veins.com/wow/lady-inerva-darkvein-strategy-guide-for-castle-nathria",
+                    "RAID_WARNING");
             end
         }, {
-            text = "Tanks",
+            text = "Quick version",
             notCheckable = true,
             func = function()
-                CastleNathria_LadyInervaDarkvein_Tanks();
-            end
-        }, {
-            text = "Healers",
-            notCheckable = true,
-            func = function()
-                CastleNathria_LadyInervaDarkvein_Healers();
-            end
-        }, {
-            text = "Dps",
-            notCheckable = true,
-            func = function()
-                CastleNathria_LadyInervaDarkvein_Dps();
+                CastleNathria_LadyInervaDarkvein_QuickVersion();
             end
         }}
     }
