@@ -4,28 +4,36 @@ function CastleNathriaStoneLegionGeneralsMenu()
         hasArrow = true,
         notCheckable = true,
         menuList = {{
-            text = "General",
+            text = "Video",
             notCheckable = true,
             func = function()
-                CastleNathria_StoneLegionGenerals_General();
+                SendChatMessage("https://www.icy-veins.com/wow/stone-legion-generals-strategy-guide-for-castle-nathria",
+                    "RAID_WARNING");
             end
         }, {
-            text = "Tanks",
+            text = "Throughout the fight",
             notCheckable = true,
             func = function()
-                CastleNathria_StoneLegionGenerals_Tanks();
+                CastleNathria_StoneLegionGenerals_ThroughoutTheFight();
             end
         }, {
-            text = "Healers",
+            text = "Phase one",
             notCheckable = true,
             func = function()
-                CastleNathria_StoneLegionGenerals_Healers();
+                CastleNathria_StoneLegionGenerals_PhaseOne();
             end
         }, {
-            text = "Dps",
+            text = "Phase two",
             notCheckable = true,
             func = function()
-                CastleNathria_StoneLegionGenerals_Dps();
+                CastleNathria_StoneLegionGenerals_PhaseTwo();
+            end
+        },
+        {
+            text = "Phase three",
+            notCheckable = true,
+            func = function()
+                CastleNathria_StoneLegionGenerals_PhaseThree();
             end
         }}
     }
