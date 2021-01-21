@@ -1,4 +1,4 @@
-function CastleNathria_SunKingsSalvation_Dps() 
+function CastleNathria_SunKingsSalvation_AddPhase() 
     SendChatMessage("In the add phase:", "RAID_WARNING")
     SendChatMessage("The general kill priority is Infusers > Occultists > Vanquishers > Assassins > Fiends.", "RAID_WARNING")
     SendChatMessage("Stay spread out when Assassins or Fiends are active.", "RAID_WARNING")
