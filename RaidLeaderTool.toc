@@ -40,7 +40,7 @@ resources/castle-nathria/sun-kings-salvation/menu.lua
 resources/castle-nathria/artificer-xymox/tactics/phase-three.lua
 resources/castle-nathria/artificer-xymox/tactics/phase-two.lua
 resources/castle-nathria/artificer-xymox/tactics/phase-one.lua
-resources/castle-nathria/artificer-xymox/tactics/throughout-out-fight.lua
+resources/castle-nathria/artificer-xymox/tactics/throughout-the-fight.lua
 resources/castle-nathria/artificer-xymox/menu.lua
 
 resources/castle-nathria/hungering-destroyer/tactics/quick-version.lua
@@ -49,7 +49,7 @@ resources/castle-nathria/hungering-destroyer/menu.lua
 resources/castle-nathria/huntsman-altimor/tactics/hecutis.lua
 resources/castle-nathria/huntsman-altimor/tactics/margore.lua
 resources/castle-nathria/huntsman-altimor/tactics/bargast.lua
-resources/castle-nathria/huntsman-altimor/tactics/throughout-out-fight.lua
+resources/castle-nathria/huntsman-altimor/tactics/throughout-the-fight.lua
 resources/castle-nathria/huntsman-altimor/menu.lua
 
 resources/castle-nathria/shriekwing/tactics/phase-1.lua

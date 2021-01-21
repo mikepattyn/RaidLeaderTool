@@ -4,14 +4,14 @@ function CastleNathriaHungeringDestroyerMenu()
         hasArrow = true,
         notCheckable = true,
         menuList = {{
-            text = "Video",
+            text = "Icy-veins",
             notCheckable = true,
             func = function()
                 SendChatMessage("https://www.icy-veins.com/wow/hungering-destroyer-strategy-guide-for-castle-nathria",
                     "RAID_WARNING");
             end
         }, {
-            text = "QuickVersion",
+            text = "Quick version",
             notCheckable = true,
             func = function()
                 CastleNathria_HungeringDestroyer_QuickVersion();

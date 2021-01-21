@@ -4,7 +4,7 @@ function CastleNathriaTheCouncilOfBloodMenu()
         hasArrow = true,
         notCheckable = true,
         menuList = {{
-            text = "Video",
+            text = "Icy-veins",
             notCheckable = true,
             func = function()
                 SendChatMessage("https://www.icy-veins.com/wow/the-council-of-blood-strategy-guide-for-castle-nathria",

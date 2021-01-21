@@ -4,7 +4,7 @@ function CastleNathriaHuntsmanAltimorMenu()
         hasArrow = true,
         notCheckable = true,
         menuList = {{
-            text = "Video",
+            text = "Icy-veins",
             notCheckable = true,
             func = function()
                 SendChatMessage("https://www.icy-veins.com/wow/huntsman-altimor-strategy-guide-for-castle-nathria",

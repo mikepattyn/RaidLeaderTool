@@ -4,7 +4,7 @@ function CastleNathriaStoneLegionGeneralsMenu()
         hasArrow = true,
         notCheckable = true,
         menuList = {{
-            text = "Video",
+            text = "Icy-veins",
             notCheckable = true,
             func = function()
                 SendChatMessage("https://www.icy-veins.com/wow/stone-legion-generals-strategy-guide-for-castle-nathria",
