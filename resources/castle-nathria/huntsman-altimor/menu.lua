@@ -14,7 +14,7 @@ function CastleNathriaHuntsmanAltimorMenu()
             text = "Through out fight",
             notCheckable = true,
             func = function()
-                CastleNathria_HuntsmanAltimor_ThroughOutFight();
+                CastleNathria_HuntsmanAltimor_ThroughoutTheFight();
             end
         }, {
             text = "Bargast",

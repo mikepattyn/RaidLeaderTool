@@ -14,7 +14,7 @@ function CastleNathriaArtificerXymoxMenu()
             text = "Through out fight",
             notCheckable = true,
             func = function()
-                CastleNathria_ArtificerXymox_ThroughOutFight();
+                CastleNathria_ArtificerXymox_ThroughoutTheFight();
             end
         }, {
             text = "Phase 1",

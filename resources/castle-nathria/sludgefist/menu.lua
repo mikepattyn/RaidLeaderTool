@@ -4,28 +4,17 @@ function CastleNathriaSludgefistMenu()
         hasArrow = true,
         notCheckable = true,
         menuList = {{
-            text = "General",
+            text = "Video",
             notCheckable = true,
             func = function()
-                CastleNathria_Sludgefist_General();
+                SendChatMessage("https://www.icy-veins.com/wow/sludgefist-strategy-guide-for-castle-nathria",
+                    "RAID_WARNING");
             end
         }, {
-            text = "Tanks",
+            text = "Quick version",
             notCheckable = true,
             func = function()
-                CastleNathria_Sludgefist_Tanks();
-            end
-        }, {
-            text = "Healers",
-            notCheckable = true,
-            func = function()
-                CastleNathria_Sludgefist_Healers();
-            end
-        }, {
-            text = "Dps",
-            notCheckable = true,
-            func = function()
-                CastleNathria_Sludgefist_Dps();
+                CastleNathria_Sludgefist_QuickVersion();
             end
         }}
     }

@@ -28,16 +28,12 @@ resources/castle-nathria/sludgefist/tactics/healers.lua
 resources/castle-nathria/sludgefist/tactics/tanks.lua
 resources/castle-nathria/sludgefist/menu.lua
 
-resources/castle-nathria/the-council-of-blood/tactics/dps.lua
-resources/castle-nathria/the-council-of-blood/tactics/general.lua
-resources/castle-nathria/the-council-of-blood/tactics/healers.lua
-resources/castle-nathria/the-council-of-blood/tactics/tanks.lua
+resources/castle-nathria/the-council-of-blood/tactics/after-niklaus-dies.lua
+resources/castle-nathria/the-council-of-blood/tactics/after-freida-dies.lua
+resources/castle-nathria/the-council-of-blood/tactics/throughout-the-fight.lua
 resources/castle-nathria/the-council-of-blood/menu.lua
 
-resources/castle-nathria/lady-inerva-darkvein/tactics/dps.lua
-resources/castle-nathria/lady-inerva-darkvein/tactics/general.lua
-resources/castle-nathria/lady-inerva-darkvein/tactics/healers.lua
-resources/castle-nathria/lady-inerva-darkvein/tactics/tanks.lua
+resources/castle-nathria/lady-inerva-darkvein/tactics/quick-version.lua
 resources/castle-nathria/lady-inerva-darkvein/menu.lua
 
 resources/castle-nathria/sun-kings-salvation/tactics/shade-phase.lua
@@ -47,7 +43,7 @@ resources/castle-nathria/sun-kings-salvation/menu.lua
 resources/castle-nathria/artificer-xymox/tactics/phase-three.lua
 resources/castle-nathria/artificer-xymox/tactics/phase-two.lua
 resources/castle-nathria/artificer-xymox/tactics/phase-one.lua
-resources/castle-nathria/artificer-xymox/tactics/through-out-fight.lua
+resources/castle-nathria/artificer-xymox/tactics/throughout-out-fight.lua
 resources/castle-nathria/artificer-xymox/menu.lua
 
 resources/castle-nathria/hungering-destroyer/tactics/quick-version.lua
@@ -56,7 +52,7 @@ resources/castle-nathria/hungering-destroyer/menu.lua
 resources/castle-nathria/huntsman-altimor/tactics/hecutis.lua
 resources/castle-nathria/huntsman-altimor/tactics/margore.lua
 resources/castle-nathria/huntsman-altimor/tactics/bargast.lua
-resources/castle-nathria/huntsman-altimor/tactics/through-out-fight.lua
+resources/castle-nathria/huntsman-altimor/tactics/throughout-out-fight.lua
 resources/castle-nathria/huntsman-altimor/menu.lua
 
 resources/castle-nathria/shriekwing/tactics/phase-1.lua
