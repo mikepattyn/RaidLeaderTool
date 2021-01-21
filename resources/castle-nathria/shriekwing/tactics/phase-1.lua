@@ -1,8 +1,8 @@
 function CastleNathria_Shriekwing_Phase_1()
-    SendChatMessage("Phase 1", "RAID_WARNING")
-    SendChatMessage("Tanks need to taunt swap immediately after " .. (GetSpellLink(328857)) .. " and position the boss close to a pillar. Melee should prepare to dodge " .. (GetSpellLink(343005)) .. ".", "RAID_WARNING")
-    SendChatMessage("When the boss casts " .. (GetSpellLink(345936)) .. " everyone should get quickly behind the pillar and when the cast finishes you need to spread out again.", "RAID_WARNING")
-    SendChatMessage("Its important to get behind the same pillar because he will spawn a pool of " .. (GetSpellLink(340324)) .. " and it will get messy if there are circles everywhere.", "RAID_WARNING")
-    SendChatMessage("When you get a red arrow above your head he will cast " .. (GetSpellLink(342074)) .. " after 8 seconds. Get away from the raid and from pillars!", "RAID_WARNING")
+    SendChatMessage("The tanks need to taunt swap after every ".. (GetSpellLink(328857)) .. ".", "RAID_WARNING")
+    SendChatMessage("Run out of the raid if you get a red arrow on your head. ( " .. (GetSpellLink(342074)).. " )", "RAID_WARNING")
+    SendChatMessage("Dodge the randomly facing frontal in melee. ( " .. (GetSpellLink(343005)) .. " )", "RAID_WARNING")
+    SendChatMessage("Line-of-sight the " .. (GetSpellLink(345936)) .. " casts using the pillars.", "RAID_WARNING")
+    SendChatMessage("On Heroic, dodge the circles from the boss that bounce around the room " .. (GetSpellLink(342863)) .. ".", "RAID_WARNING")
 end
 

@@ -4,28 +4,35 @@ function CastleNathriaHuntsmanAltimorMenu()
         hasArrow = true,
         notCheckable = true,
         menuList = {{
-            text = "General",
+            text = "Video",
             notCheckable = true,
             func = function()
-                CastleNathria_HuntsmanAltimor_General();
+                SendChatMessage("https://www.icy-veins.com/wow/huntsman-altimor-strategy-guide-for-castle-nathria",
+                    "RAID_WARNING");
             end
         }, {
-            text = "Tanks",
+            text = "Through out fight",
             notCheckable = true,
             func = function()
-                CastleNathria_HuntsmanAltimor_Tanks();
+                CastleNathria_HuntsmanAltimor_ThroughOutFight();
             end
         }, {
-            text = "Healers",
+            text = "Bargast",
             notCheckable = true,
             func = function()
-                CastleNathria_HuntsmanAltimor_Healers();
+                CastleNathria_HuntsmanAltimor_Bargast();
             end
         }, {
-            text = "Dps",
+            text = "Margore",
             notCheckable = true,
             func = function()
-                CastleNathria_HuntsmanAltimor_Dps();
+                CastleNathria_HuntsmanAltimor_Margore();
+            end
+        }, {
+            text = "Hecutis",
+            notCheckable = true,
+            func = function()
+                CastleNathria_HuntsmanAltimor_Hecutis();
             end
         }}
     }

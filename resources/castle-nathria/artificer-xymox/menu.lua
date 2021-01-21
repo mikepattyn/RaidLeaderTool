@@ -4,28 +4,35 @@ function CastleNathriaArtificerXymoxMenu()
         hasArrow = true,
         notCheckable = true,
         menuList = {{
-            text = "General",
+            text = "Video",
             notCheckable = true,
             func = function()
-                CastleNathria_ArtificerXymox_General();
+                SendChatMessage("https://www.icy-veins.com/wow/artificer-xy-mox-strategy-guide-for-castle-nathria",
+                    "RAID_WARNING");
             end
         }, {
-            text = "Tanks",
+            text = "Through out fight",
             notCheckable = true,
             func = function()
-                CastleNathria_ArtificerXymox_Tanks();
+                CastleNathria_ArtificerXymox_ThroughOutFight();
             end
         }, {
-            text = "Healers",
+            text = "Phase 1",
             notCheckable = true,
             func = function()
-                CastleNathria_ArtificerXymox_Healers();
+                CastleNathria_ArtificerXymox_PhaseOne();
             end
         }, {
-            text = "Dps",
+            text = "Phase 2",
             notCheckable = true,
             func = function()
-                CastleNathria_ArtificerXymox_Dps();
+                CastleNathria_ArtificerXymox_PhaseTwo();
+            end
+        }, {
+            text = "Phase 3",
+            notCheckable = true,
+            func = function()
+                CastleNathria_ArtificerXymox_PhaseThree();
             end
         }}
     }

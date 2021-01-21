@@ -4,28 +4,17 @@ function CastleNathriaHungeringDestroyerMenu()
         hasArrow = true,
         notCheckable = true,
         menuList = {{
-            text = "General",
+            text = "Video",
             notCheckable = true,
             func = function()
-                CastleNathria_HungeringDestroyer_General();
+                SendChatMessage("https://www.icy-veins.com/wow/hungering-destroyer-strategy-guide-for-castle-nathria",
+                    "RAID_WARNING");
             end
         }, {
-            text = "Tanks",
+            text = "QuickVersion",
             notCheckable = true,
             func = function()
-                CastleNathria_HungeringDestroyer_Tanks();
-            end
-        }, {
-            text = "Healers",
-            notCheckable = true,
-            func = function()
-                CastleNathria_HungeringDestroyer_Healers();
-            end
-        }, {
-            text = "Dps",
-            notCheckable = true,
-            func = function()
-                CastleNathria_HungeringDestroyer_Dps();
+                CastleNathria_HungeringDestroyer_QuickVersion();
             end
         }}
     }
